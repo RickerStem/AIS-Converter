@@ -1,0 +1,107 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d422692b-ee95-4c11-8dd5-3d1bd4f72637")
+	(paper "A4")
+	(lib_symbols)
+	(text "USB-C in \n2pin 1.5mm in \n12vdc to 5vdc converter lcsc \nPoE input after 5v so with ideal diode for usbc and 5v out protection\n3v3 ldo to esp32"
+		(exclude_from_sim no)
+		(at 76.454 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f22d41a-4398-48e3-aee3-c6817d388ebb")
+	)
+	(hierarchical_label "VP5V"
+		(shape output)
+		(at 234.95 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41c93bd1-d263-45a1-9f02-9186cb3d846c")
+	)
+	(hierarchical_label "VP_PoE"
+		(shape input)
+		(at 41.91 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "62d7d07c-8309-4092-8fb2-f6db21e5187b")
+	)
+	(hierarchical_label "VN_PoE"
+		(shape input)
+		(at 41.91 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ba9e268-a0be-4029-97b5-8fe34f84811c")
+	)
+	(hierarchical_label "VP3V3"
+		(shape output)
+		(at 233.68 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73d3f341-5dc1-40e4-a3ab-9c6c4c82bb47")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 41.91 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad8591eb-872e-433e-a1d6-1553a90777d0")
+	)
+	(hierarchical_label "VP_USB"
+		(shape input)
+		(at 41.91 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de0db0e4-a374-499c-a7a4-55719e966cc1")
+	)
+	(hierarchical_label "VP12V"
+		(shape input)
+		(at 41.91 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec9233a7-33cf-4d5a-9a25-045290fe8b8c")
+	)
+	(hierarchical_label "VN_USB"
+		(shape input)
+		(at 41.91 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f966a15c-3171-4724-be0a-3a38632bb064")
+	)
+)
