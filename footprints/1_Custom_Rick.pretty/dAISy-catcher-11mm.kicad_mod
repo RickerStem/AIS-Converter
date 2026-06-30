@@ -1,0 +1,162 @@
+(footprint "dAISy-catcher-11mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "dAISy-catcher-11mm-dummy"
+		(at 11.5 2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6ea24281-ddc1-4add-a82f-0f1618475122")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "dAISy-catcher-11mm"
+		(at 8.5 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5eef90be-a345-4bc4-9242-0066c50ae156")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb724396-9684-499e-bc87-5cfc3cbbff0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e610921-f9aa-47e3-8432-e36fd12a3c4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0 0)
+		(end 0 -10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0dbfb7cd-c8bd-4f5d-8f5b-563ae084ecab")
+	)
+	(fp_line
+		(start -1 -9)
+		(end 1 -9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "1f786c51-62b0-46b4-a8c3-b150d604d86d")
+	)
+	(fp_line
+		(start 0 -10)
+		(end -1 -9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "e2e2db18-0605-48e5-b563-f8944e369983")
+	)
+	(fp_line
+		(start 0 0)
+		(end 10 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "de92451a-d1bb-4daa-840a-335d214ad605")
+	)
+	(fp_line
+		(start 1 -9)
+		(end 0 -10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "c4d86e65-72e5-40b2-b3ce-9442199aa7a4")
+	)
+	(fp_line
+		(start 9 -1)
+		(end 9 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6b2aeb21-7401-4dfc-a93d-8b7d6959d755")
+	)
+	(fp_line
+		(start 10 0)
+		(end 9 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "5274aac8-31f1-4ab6-9847-7aefabb0a3f7")
+	)
+	(fp_line
+		(start 10 0)
+		(end 9 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "9ee8ef9e-e353-47a4-9399-c2ab48528504")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.5 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e5bf47b5-94e3-49b8-b918-84de4baa2c4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/daisy-catcher-11mm.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 2.7,
+          "height": 4.7,
+          "width": 4.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -484,8 +484,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "Rick"
+    ],
+    "pinned_symbol_libs": [
+      "Rick"
+    ]
   },
   "meta": {
     "filename": "AIS-Converter.kicad_pro",
@@ -648,7 +652,7 @@
         "uuid": "af2e2bda-c8b0-494b-9cbc-4303d4ae7608"
       }
     ],
-    "used_designators": "D5-9,#PWR7-9,#PWR41-61,R13-33,J6-7,C20-31,Q1-4,TP3-6,U7-8",
+    "used_designators": "U2-3,J1-3",
     "variants": []
   },
   "sheets": [

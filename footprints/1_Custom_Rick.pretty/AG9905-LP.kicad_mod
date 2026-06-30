@@ -1,0 +1,314 @@
+(footprint "AG9905-LP"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "U"
+		(at 0 -13.335 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1b6c0f01-aa4b-4569-8dae-979082828956")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0dc04137-b326-46d0-803b-a9ed282cfe2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18c97610-f9f0-4fb5-8aea-31edfebc4741")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AG9905-LP"
+		(at 3.81 3.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ff89380b-fc81-4414-afa3-0744446a8f64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1 -12.38)
+		(end 19.67 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "81d6e7a6-b22b-4b5f-a2fa-2fac9aa672ce")
+	)
+	(fp_line
+		(start -1.27 -4.02)
+		(end -1.27 -1.02)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "c1e8bc8d-b438-4f52-a439-ed6809a32338")
+	)
+	(fp_line
+		(start -1.27 -4.02)
+		(end 6.55 -4.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ef8495b4-a322-4fd4-8476-f38255167866")
+	)
+	(fp_line
+		(start -1.27 -1.02)
+		(end 3.56 -1.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e437510d-a598-441a-95f7-917ac2229aae")
+	)
+	(fp_line
+		(start 3.56 -1.02)
+		(end 3.56 1.98)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5d768460-3e8b-4d93-8d8f-053e299e326d")
+	)
+	(fp_line
+		(start 6.55 -4.02)
+		(end 6.55 -1.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c3acd23a-bcd7-477b-a3aa-3c25e4c53f43")
+	)
+	(fp_line
+		(start 6.55 -1.02)
+		(end 11.93 -1.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a2e1390e-9289-43a7-837f-c38f88c13ef0")
+	)
+	(fp_line
+		(start 11.93 -7.82)
+		(end 11.93 -1.02)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "bcc2527c-633c-495d-89ac-b0622e7f0eb0")
+	)
+	(fp_line
+		(start 11.93 -7.82)
+		(end 19.93 -7.82)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "06a2dc5e-e4df-49f0-abb9-b6524202492f")
+	)
+	(fp_line
+		(start 14.93 -4.82)
+		(end 14.93 1.98)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "c3c4ae47-70de-4e3d-bfcc-6288e4173175")
+	)
+	(fp_line
+		(start 14.93 -4.82)
+		(end 19.93 -4.82)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "4659c0d0-38bc-4f5a-a6ce-d21330e33630")
+	)
+	(fp_line
+		(start 14.93 1.98)
+		(end 3.56 1.98)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "56b295f6-1f4f-425d-bc0a-0d17d9ed2eaf")
+	)
+	(fp_line
+		(start 19.93 -4.82)
+		(end 19.93 -7.82)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "3071ba33-0749-424c-9aa9-b14cd589e6b9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.635 4.675 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a8edb466-8c1a-4fdd-8b42-8c6bf32edbb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.59 1.59)
+		(drill 1.12)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f5ace051-9b0e-46cc-bcee-ec6d6ab508cc")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.59 1.59)
+		(drill 1.12)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0d94e4a0-eec0-4b9e-a9ba-9d2af84b183c")
+	)
+	(pad "3" thru_hole circle
+		(at 16.13 0)
+		(size 1.59 1.59)
+		(drill 1.12)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "086b46e2-d3a5-4ce4-9b29-3ac5f0bcf36f")
+	)
+	(pad "4" thru_hole circle
+		(at 18.67 0)
+		(size 1.59 1.59)
+		(drill 1.12)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ffa7accc-ab68-4858-8aee-cebc68cb2637")
+	)
+	(pad "5" thru_hole circle
+		(at 18.67 -11.38)
+		(size 1.59 1.59)
+		(drill 1.12)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8fe4b2d0-a3ae-4f35-9ee9-220d41656d69")
+	)
+	(pad "6" thru_hole circle
+		(at 16.13 -11.38)
+		(size 1.59 1.59)
+		(drill 1.12)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2c783c91-bb55-416f-a9e0-5f4a53f3135d")
+	)
+	(pad "7" thru_hole circle
+		(at 2.54 -11.38)
+		(size 1.59 1.59)
+		(drill 1.12)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8cf80a86-8a27-49db-8c55-899855ec03a6")
+	)
+	(pad "8" thru_hole circle
+		(at 0 -11.38)
+		(size 1.59 1.59)
+		(drill 1.12)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7d35c79c-a767-4f7e-9c55-35c4619c0fca")
+	)
+	(zone
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "1565fb68-93c2-49e7-a53e-41da1ea8eb59")
+		(name "ag9905-lp")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 3.56 -1.02) (xy -1.27 -1.02) (xy -1.27 -4.02) (xy 6.55 -4.02) (xy 6.55 -1.02) (xy 11.93 -1.02)
+				(xy 11.93 -7.82) (xy 19.93 -7.82) (xy 19.93 -4.82) (xy 14.93 -4.82) (xy 14.93 1.98) (xy 3.56 1.98)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/1_Custom_Rick.3dshapes/Ag9900LP-new-origin.STEP"
+		(offset
+			(xyz 0 0 -3.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

@@ -18,7 +18,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "New Version"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rick:dAISy-catcher-11mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75,39 +75,11 @@
 			)
 		)
 		(symbol "dAISy-catcher_1_1"
-			(pin input line
-				(at -8.89 5.08 0)
-				(length 2.54)
-				(name "pin1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 10.16 5.08 180)
-				(length 2.54)
-				(name "pin2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+			(text "dAISy_catcher"
+				(at 0.762 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)

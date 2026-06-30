@@ -4,7 +4,253 @@
 	(generator_version "10.0")
 	(uuid "d422692b-ee95-4c11-8dd5-3d1bd4f72637")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Rick:AG9905-LP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -6.858 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AG9905-LP"
+				(at -3.302 -11.684 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Rick:AG9905-LP"
+				(at -5.588 -11.684 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AG9905-LP_0_1"
+				(rectangle
+					(start -8.89 10.16)
+					(end 8.89 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 10.16) (xy 0 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AG9905-LP_1_0"
+				(pin power_out line
+					(at 11.43 7.62 180)
+					(length 2.54)
+					(name "+VDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 7.62 180)
+					(length 2.54)
+					(hide yes)
+					(name "+VDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 -7.62 180)
+					(length 2.54)
+					(name "-VDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "ADJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 7.62 0)
+					(length 2.54)
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 7.62 0)
+					(length 2.54)
+					(hide yes)
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 -7.62 0)
+					(length 2.54)
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 -7.62 0)
+					(length 2.54)
+					(hide yes)
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AG9905-LP_1_1"
+				(text "AG99xx\n(LP)\n802.3af"
+					(at -4.572 0.508 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(text "USB-C in \n2pin 1.5mm in \n12vdc to 5vdc converter lcsc \nPoE input after 5v so with ideal diode for usbc and 5v out protection\n3v3 ldo to esp32"
 		(exclude_from_sim no)
 		(at 76.454 45.72 0)
@@ -15,6 +261,26 @@
 			(justify left)
 		)
 		(uuid "7f22d41a-4398-48e3-aee3-c6817d388ebb")
+	)
+	(text "Diode bridge in connector"
+		(exclude_from_sim no)
+		(at 58.674 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7f8c787c-2e9b-492c-b311-41aa0fb46a7a")
+	)
+	(text "Ag9905-LP"
+		(exclude_from_sim no)
+		(at 80.518 59.182 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e1740902-8af3-4f16-b315-95618d812910")
 	)
 	(hierarchical_label "VP5V"
 		(shape output)
@@ -103,5 +369,103 @@
 			(justify right)
 		)
 		(uuid "f966a15c-3171-4724-be0a-3a38632bb064")
+	)
+	(symbol
+		(lib_id "Rick:AG9905-LP")
+		(at 86.36 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de7c8d12-4cc1-4169-86ec-bf9d65856828")
+		(property "Reference" "U2"
+			(at 86.36 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AG9905-LP"
+			(at 86.36 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rick:AG9905-LP"
+			(at 80.772 112.014 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "9b705645-0e12-44f3-ae59-8b6d48230e64")
+		)
+		(pin "8"
+			(uuid "a724e633-f38d-4805-843d-deb842707e66")
+		)
+		(pin "3"
+			(uuid "51ac8100-2f68-476b-a917-0739e2941f18")
+		)
+		(pin "1"
+			(uuid "689bcb2b-070a-4490-a429-aaac71afe2ff")
+		)
+		(pin "5"
+			(uuid "63cc4ded-1710-43f7-b973-4650614f1c77")
+		)
+		(pin "7"
+			(uuid "4b7697c5-2598-4158-a66c-49afd7d1aa06")
+		)
+		(pin "2"
+			(uuid "7792c95a-13fa-4688-ac90-ca33fb4bb235")
+		)
+		(pin "4"
+			(uuid "4e887fec-6f6d-47c5-84e8-760a0209c830")
+		)
+		(instances
+			(project "AIS-Converter"
+				(path "/af2e2bda-c8b0-494b-9cbc-4303d4ae7608/129c204b-2a58-4519-abe1-43b32e5912d0"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
 	)
 )
