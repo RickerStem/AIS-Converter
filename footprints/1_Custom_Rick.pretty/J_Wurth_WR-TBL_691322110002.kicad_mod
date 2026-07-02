@@ -1,0 +1,160 @@
+(footprint "J_Wurth_WR-TBL_691322110002"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Series 3221 - 3.50 mm Horizontal PCB Header, body 8.4x9.2x7.2mm, https://www.we-online.com/en/components/products/datasheet/691322110002?ki")
+	(tags "THT Horizontal")
+	(property "Reference" "REF**"
+		(at 1.75 -2.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3507f3d1-8cd2-4f83-b9b4-7a60b89d1a72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "J_Wurth_WR-TBL_691322110002"
+		(at 1.75 9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d2bb882-afbc-47ec-9f20-f7e23538ff4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9c26f01-9411-41eb-82d5-2fb69955f195")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8e2b200-c4a6-433f-b8e1-f00f1d000c1d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.7 -1.785)
+		(end 0.7 -1.785)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b54a2642-09ef-40bb-bc68-9c4776280008")
+	)
+	(fp_rect
+		(start -2.56 -1.31)
+		(end 6.06 8.11)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1973efa8-bde3-4a4c-b29a-b515e82a51ce")
+	)
+	(fp_rect
+		(start -2.95 -1.7)
+		(end 6.45 8.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8ad8968e-caab-4f95-84a3-b6c62a17b29a")
+	)
+	(fp_line
+		(start -0.7 -1.2)
+		(end 0 -0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "44fb786b-f46f-4104-85f4-9a43f93eebb8")
+	)
+	(fp_line
+		(start 0.7 -1.2)
+		(end 0 -0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2f34ec28-6c71-48f7-9104-cfc01cee018c")
+	)
+	(fp_rect
+		(start -2.45 -1.2)
+		(end 5.95 8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "75aaabaf-50f0-4afc-8f5a-0b01499bc263")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.75 3.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d509c163-29a6-4f13-ade9-620d0ca5d389")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f2a5e818-92a0-4af8-a3fb-7979d441f551")
+	)
+	(pad "2" thru_hole circle
+		(at 3.5 0)
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0aeec1dc-7431-4fa6-b672-a96dc0a6b065")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/1_Custom_Rick.3dshapes/J_Wurth_WR-TBL_691322110002.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
