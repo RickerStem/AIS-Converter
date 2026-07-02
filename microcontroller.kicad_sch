@@ -638,7 +638,7 @@
 					)
 				)
 				(pin input line
-					(at 15.24 -25.4 180)
+					(at 15.24 -22.86 180)
 					(length 2.54)
 					(name "IO34"
 						(effects
@@ -656,7 +656,7 @@
 					)
 				)
 				(pin input line
-					(at 15.24 -27.94 180)
+					(at 15.24 -25.4 180)
 					(length 2.54)
 					(name "IO35"
 						(effects
@@ -674,7 +674,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -20.32 180)
+					(at 15.24 -17.78 180)
 					(length 2.54)
 					(name "IO32"
 						(effects
@@ -692,7 +692,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -22.86 180)
+					(at 15.24 -20.32 180)
 					(length 2.54)
 					(name "IO33"
 						(effects
@@ -710,7 +710,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -12.7 180)
+					(at 15.24 -10.16 180)
 					(length 2.54)
 					(name "IO25"
 						(effects
@@ -728,7 +728,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -15.24 180)
+					(at 15.24 -12.7 180)
 					(length 2.54)
 					(name "IO26"
 						(effects
@@ -746,7 +746,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -17.78 180)
+					(at 15.24 -15.24 180)
 					(length 2.54)
 					(name "IO27"
 						(effects
@@ -764,7 +764,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 10.16 180)
+					(at 15.24 12.7 180)
 					(length 2.54)
 					(name "IO14"
 						(effects
@@ -782,7 +782,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 15.24 180)
+					(at 15.24 17.78 180)
 					(length 2.54)
 					(name "IO12"
 						(effects
@@ -800,7 +800,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 12.7 180)
+					(at 15.24 15.24 180)
 					(length 2.54)
 					(name "IO13"
 						(effects
@@ -932,7 +932,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 7.62 180)
+					(at 15.24 10.16 180)
 					(length 2.54)
 					(name "IO15"
 						(effects
@@ -986,7 +986,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 20.32 180)
+					(at 15.24 22.86 180)
 					(length 2.54)
 					(name "IO4"
 						(effects
@@ -1004,7 +1004,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 5.08 180)
+					(at 15.24 7.62 180)
 					(length 2.54)
 					(name "IO16"
 						(effects
@@ -1022,7 +1022,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 2.54 180)
+					(at 15.24 5.08 180)
 					(length 2.54)
 					(name "IO17"
 						(effects
@@ -1040,7 +1040,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 17.78 180)
+					(at 15.24 20.32 180)
 					(length 2.54)
 					(name "IO5"
 						(effects
@@ -1058,7 +1058,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 0 180)
+					(at 15.24 2.54 180)
 					(length 2.54)
 					(name "IO18"
 						(effects
@@ -1076,7 +1076,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -2.54 180)
+					(at 15.24 0 180)
 					(length 2.54)
 					(name "IO19"
 						(effects
@@ -1113,7 +1113,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -5.08 180)
+					(at 15.24 -2.54 180)
 					(length 2.54)
 					(name "IO21"
 						(effects
@@ -1167,7 +1167,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -7.62 180)
+					(at 15.24 -5.08 180)
 					(length 2.54)
 					(name "IO22"
 						(effects
@@ -1185,7 +1185,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -10.16 180)
+					(at 15.24 -7.62 180)
 					(length 2.54)
 					(name "IO23"
 						(effects
@@ -1634,6 +1634,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "RMII with 50Mhz ETH_CLK from IO17 (ESP32 APLL)\n(WiFi/Bluetooth not possible when using Ethernet)"
+		(exclude_from_sim no)
+		(at 215.138 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "71556a05-5575-498b-8c84-be353d7309a3")
+	)
+	(text "Valid pins?"
+		(exclude_from_sim no)
+		(at 170.942 74.168 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "78d3ec83-8415-412b-89b2-a754e63d3013")
+	)
 	(junction
 		(at 41.91 82.55)
 		(diameter 0)
@@ -1669,6 +1689,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d200a885-dd3d-4cf4-aea5-dd5b9e73ed21")
+	)
+	(no_connect
+		(at 161.29 73.66)
+		(uuid "508f7c43-82ca-44e0-86fe-f67be9dce97c")
+	)
+	(no_connect
+		(at 161.29 81.28)
+		(uuid "872311a2-a426-437f-bd75-506c2d434c9f")
 	)
 	(wire
 		(pts
@@ -1742,6 +1770,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 99.06) (xy 177.8 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "483667b7-6317-4887-9922-8454ecb5603e")
+	)
+	(wire
+		(pts
 			(xy 80.01 60.96) (xy 34.29 60.96)
 		)
 		(stroke
@@ -1749,6 +1787,16 @@
 			(type default)
 		)
 		(uuid "4c1c1ce4-823e-4bd9-b8ba-089f771a6957")
+	)
+	(wire
+		(pts
+			(xy 161.29 96.52) (xy 177.8 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de93ce4-ed60-42af-ad12-52f1cbda6a6a")
 	)
 	(wire
 		(pts
@@ -1779,6 +1827,16 @@
 			(type default)
 		)
 		(uuid "5e49e4ed-49ab-4995-a16d-52e5cad8ac00")
+	)
+	(wire
+		(pts
+			(xy 161.29 93.98) (xy 177.8 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6208c2a8-0ba3-41c9-939a-5785ba3c253c")
 	)
 	(wire
 		(pts
@@ -1842,6 +1900,36 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 101.6) (xy 177.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8866f8e8-387a-4b0d-82bd-6619256f02ba")
+	)
+	(wire
+		(pts
+			(xy 161.29 76.2) (xy 177.8 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9156f1e3-5c0b-499c-b35b-d3ede7f3986c")
+	)
+	(wire
+		(pts
+			(xy 161.29 106.68) (xy 177.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a22b7363-d7fd-49b2-93c6-3c7edaef2eac")
+	)
+	(wire
+		(pts
 			(xy 66.04 88.9) (xy 40.64 88.9)
 		)
 		(stroke
@@ -1849,6 +1937,16 @@
 			(type default)
 		)
 		(uuid "a5c60d0e-fc68-46d4-b927-544d2a5ac3a4")
+	)
+	(wire
+		(pts
+			(xy 161.29 91.44) (xy 177.8 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60c4d6c-bea1-40d4-9ed4-dcf5e4670d74")
 	)
 	(wire
 		(pts
@@ -1882,6 +1980,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 78.74) (xy 177.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e3d2c2-edbf-4086-85f5-0edee806f049")
+	)
+	(wire
+		(pts
 			(xy 66.04 92.71) (xy 66.04 91.44)
 		)
 		(stroke
@@ -1889,6 +1997,26 @@
 			(type default)
 		)
 		(uuid "b599383c-1e65-4c43-91b9-e0b2c69ba17a")
+	)
+	(wire
+		(pts
+			(xy 161.29 88.9) (xy 177.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a24d2a-788d-4c2c-b34b-27afbff6f1e6")
+	)
+	(wire
+		(pts
+			(xy 161.29 104.14) (xy 177.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b73ca0fe-1593-4e48-b81e-31f92eb6bb89")
 	)
 	(wire
 		(pts
@@ -1932,6 +2060,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 86.36) (xy 177.8 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30b3550-6b4d-45ac-8d8d-7dc78957a77a")
+	)
+	(wire
+		(pts
 			(xy 40.64 97.79) (xy 55.88 97.79)
 		)
 		(stroke
@@ -1971,6 +2109,50 @@
 		)
 		(uuid "036b675c-d315-4456-8f84-892e15302406")
 	)
+	(hierarchical_label "AIS_UART0_TX"
+		(shape input)
+		(at 177.8 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07f937e6-1226-412e-b210-4614e58510ed")
+	)
+	(hierarchical_label "AIS_UART_RX"
+		(shape input)
+		(at 177.8 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a80f161-6278-459f-a762-f16695aef240")
+	)
+	(hierarchical_label "TXD0"
+		(shape output)
+		(at 177.8 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "215abf3c-931c-40fc-9215-ac5e36b002aa")
+	)
+	(hierarchical_label "ETH_CLK"
+		(shape output)
+		(at 177.8 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2db051a4-ca20-4dfa-92d3-42aa1ce5d695")
+	)
 	(hierarchical_label "CH_RTS"
 		(shape output)
 		(at 34.29 97.79 180)
@@ -1981,6 +2163,39 @@
 			(justify right)
 		)
 		(uuid "3376d9ae-b243-495b-909b-fd6c343a80b6")
+	)
+	(hierarchical_label "RXD1"
+		(shape input)
+		(at 177.8 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c914e8e-174a-481c-9a33-52de561df580")
+	)
+	(hierarchical_label "CRS_DV"
+		(shape input)
+		(at 177.8 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64918f23-26e3-408f-a7af-4147175c362f")
+	)
+	(hierarchical_label "TXD1"
+		(shape output)
+		(at 177.8 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6fad2e87-d041-4f8d-be9b-a0b7c529d6cc")
 	)
 	(hierarchical_label "ESP_RXD0"
 		(shape input)
@@ -1993,6 +2208,17 @@
 		)
 		(uuid "724b6c04-0bc4-4bcd-914a-fc88ef82b56d")
 	)
+	(hierarchical_label "MDIO"
+		(shape bidirectional)
+		(at 177.8 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8de08380-1fbe-4704-9cfe-fc4f479c7450")
+	)
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 34.29 60.96 180)
@@ -2003,6 +2229,17 @@
 			(justify right)
 		)
 		(uuid "98a8cdab-aae3-4a6a-b6d1-df5df4a5166e")
+	)
+	(hierarchical_label "TXEN"
+		(shape output)
+		(at 177.8 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0139187-a4c3-4146-97b1-b9e39261ed65")
 	)
 	(hierarchical_label "CH_DTR"
 		(shape input)
@@ -2025,6 +2262,28 @@
 			(justify right)
 		)
 		(uuid "ec3f2786-9eb9-4257-8949-cb8fd4f8fe6e")
+	)
+	(hierarchical_label "RXD0"
+		(shape input)
+		(at 177.8 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed67d6d3-09ef-4d5d-b21a-d6030041ac97")
+	)
+	(hierarchical_label "MDC"
+		(shape output)
+		(at 177.8 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7fd2643-169f-48f3-973f-f243423e240e")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2610,22 +2869,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "3ddd5e32-1196-4437-be95-c1f300175523")
+			(uuid "3ddd5e32-1196-4437-be95-c1f300175524")
 		)
 		(pin "1"
-			(uuid "b358d8c4-97fb-4bcd-b127-9cc8dd9ad7f0")
+			(uuid "b358d8c4-97fb-4bcd-b127-9cc8dd9ad7f1")
 		)
 		(pin "3"
-			(uuid "6c49c35c-9e6c-418e-b783-97a2faad7578")
+			(uuid "6c49c35c-9e6c-418e-b783-97a2faad7579")
 		)
 		(pin "6"
-			(uuid "8a8ac141-7a9e-4756-988a-fe0ba168066e")
+			(uuid "8a8ac141-7a9e-4756-988a-fe0ba168066f")
 		)
 		(pin "4"
-			(uuid "c2df9cbd-2380-47ae-a46c-e571c4f1577f")
+			(uuid "c2df9cbd-2380-47ae-a46c-e571c4f15780")
 		)
 		(pin "5"
-			(uuid "0206acbc-9d4b-47cb-863b-99f1e53bf196")
+			(uuid "0206acbc-9d4b-47cb-863b-99f1e53bf197")
 		)
 		(instances
 			(project "AIS-Converter"

@@ -693,34 +693,34 @@
 		)
 	)
 	(junction
-		(at 83.82 102.87)
+		(at 129.54 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf251b8f-d970-4ca1-8099-64eff4668d58")
 	)
 	(no_connect
-		(at 95.25 100.33)
+		(at 140.97 105.41)
 		(uuid "c004e035-c666-4b56-8b9e-1b04fc0a7bfe")
 	)
 	(no_connect
-		(at 115.57 92.71)
+		(at 161.29 97.79)
 		(uuid "c52a9716-282b-4f1e-9d2c-c0302af1b8e4")
 	)
 	(no_connect
-		(at 115.57 100.33)
+		(at 161.29 105.41)
 		(uuid "d199b996-67a0-4bda-9c61-ace1b11b7be9")
 	)
 	(no_connect
-		(at 115.57 95.25)
+		(at 161.29 100.33)
 		(uuid "dda0ae79-77c7-4ae9-8938-66d3439be632")
 	)
 	(no_connect
-		(at 115.57 97.79)
+		(at 161.29 102.87)
 		(uuid "f9ef528f-e34d-4cc1-a6ff-55f0e7ba122d")
 	)
 	(wire
 		(pts
-			(xy 45.72 71.12) (xy 95.25 71.12)
+			(xy 91.44 76.2) (xy 140.97 76.2)
 		)
 		(stroke
 			(width 0)
@@ -730,7 +730,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 87.63) (xy 95.25 87.63)
+			(xy 91.44 92.71) (xy 140.97 92.71)
 		)
 		(stroke
 			(width 0)
@@ -740,7 +740,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 73.66) (xy 83.82 76.2)
+			(xy 129.54 78.74) (xy 129.54 81.28)
 		)
 		(stroke
 			(width 0)
@@ -750,7 +750,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 78.74) (xy 166.37 78.74)
+			(xy 195.58 83.82) (xy 212.09 83.82)
 		)
 		(stroke
 			(width 0)
@@ -760,7 +760,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 73.66) (xy 120.65 73.66)
+			(xy 161.29 78.74) (xy 166.37 78.74)
 		)
 		(stroke
 			(width 0)
@@ -770,7 +770,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 73.66) (xy 83.82 73.66)
+			(xy 140.97 78.74) (xy 129.54 78.74)
 		)
 		(stroke
 			(width 0)
@@ -780,7 +780,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 81.28) (xy 153.67 81.28)
+			(xy 161.29 86.36) (xy 199.39 86.36)
 		)
 		(stroke
 			(width 0)
@@ -790,7 +790,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 76.2) (xy 166.37 76.2)
+			(xy 184.15 81.28) (xy 212.09 81.28)
 		)
 		(stroke
 			(width 0)
@@ -800,7 +800,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 78.74) (xy 142.24 78.74)
+			(xy 161.29 83.82) (xy 187.96 83.82)
 		)
 		(stroke
 			(width 0)
@@ -810,7 +810,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 85.09) (xy 95.25 85.09)
+			(xy 91.44 90.17) (xy 140.97 90.17)
 		)
 		(stroke
 			(width 0)
@@ -820,7 +820,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 81.28) (xy 166.37 81.28)
+			(xy 207.01 86.36) (xy 212.09 86.36)
 		)
 		(stroke
 			(width 0)
@@ -830,7 +830,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 102.87) (xy 83.82 102.87)
+			(xy 140.97 107.95) (xy 129.54 107.95)
 		)
 		(stroke
 			(width 0)
@@ -840,7 +840,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 76.2) (xy 130.81 76.2)
+			(xy 161.29 81.28) (xy 176.53 81.28)
 		)
 		(stroke
 			(width 0)
@@ -850,7 +850,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 102.87) (xy 83.82 102.87)
+			(xy 91.44 107.95) (xy 129.54 107.95)
 		)
 		(stroke
 			(width 0)
@@ -860,7 +860,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 102.87) (xy 83.82 83.82)
+			(xy 129.54 107.95) (xy 129.54 88.9)
 		)
 		(stroke
 			(width 0)
@@ -870,7 +870,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 73.66) (xy 166.37 73.66)
+			(xy 173.99 78.74) (xy 212.09 78.74)
 		)
 		(stroke
 			(width 0)
@@ -880,7 +880,7 @@
 	)
 	(hierarchical_label "~{RTS}"
 		(shape input)
-		(at 166.37 81.28 0)
+		(at 212.09 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -891,7 +891,7 @@
 	)
 	(hierarchical_label "~{DTR}"
 		(shape output)
-		(at 166.37 78.74 0)
+		(at 212.09 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -902,7 +902,7 @@
 	)
 	(hierarchical_label "TXD"
 		(shape output)
-		(at 166.37 73.66 0)
+		(at 212.09 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -913,7 +913,7 @@
 	)
 	(hierarchical_label "RXD"
 		(shape input)
-		(at 166.37 76.2 0)
+		(at 212.09 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -924,7 +924,7 @@
 	)
 	(hierarchical_label "USB_DP"
 		(shape bidirectional)
-		(at 45.72 85.09 180)
+		(at 91.44 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -935,7 +935,7 @@
 	)
 	(hierarchical_label "USB_DN"
 		(shape bidirectional)
-		(at 45.72 87.63 180)
+		(at 91.44 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -946,7 +946,7 @@
 	)
 	(hierarchical_label "VP3V3"
 		(shape input)
-		(at 45.72 71.12 180)
+		(at 91.44 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -957,7 +957,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 45.72 102.87 180)
+		(at 91.44 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -968,7 +968,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 83.82 80.01 0)
+		(at 129.54 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -979,7 +979,7 @@
 		(fields_autoplaced yes)
 		(uuid "24f2a9e5-04ef-4f9a-a1df-3733e0032de2")
 		(property "Reference" "C4"
-			(at 87.63 78.7399 0)
+			(at 133.35 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -990,7 +990,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 87.63 81.2799 0)
+			(at 133.35 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1001,7 +1001,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 84.7852 83.82 0)
+			(at 130.5052 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1012,7 +1012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 80.01 0)
+			(at 129.54 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1023,7 +1023,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 83.82 80.01 0)
+			(at 129.54 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1050,7 +1050,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 157.48 81.28 90)
+		(at 203.2 86.36 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1060,7 +1060,7 @@
 		(dnp no)
 		(uuid "2de05acc-0de7-4bed-8e27-e5164602ed57")
 		(property "Reference" "R7"
-			(at 157.48 67.564 90)
+			(at 203.2 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1070,7 +1070,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 157.48 70.104 90)
+			(at 203.2 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1080,7 +1080,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 157.48 83.058 90)
+			(at 203.2 88.138 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1091,7 +1091,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 81.28 0)
+			(at 203.2 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1102,7 +1102,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 157.48 81.28 0)
+			(at 203.2 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1129,7 +1129,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 146.05 78.74 90)
+		(at 191.77 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1139,7 +1139,7 @@
 		(dnp no)
 		(uuid "396e5530-e512-4cbb-ab4f-208c7dba5f9f")
 		(property "Reference" "R6"
-			(at 146.05 67.564 90)
+			(at 191.77 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1149,7 +1149,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 146.05 70.104 90)
+			(at 191.77 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1159,7 +1159,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 146.05 80.518 90)
+			(at 191.77 85.598 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1170,7 +1170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 78.74 0)
+			(at 191.77 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1181,7 +1181,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 146.05 78.74 0)
+			(at 191.77 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1208,7 +1208,7 @@
 	)
 	(symbol
 		(lib_id "Rick:CH340C")
-		(at 105.41 86.36 0)
+		(at 151.13 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1218,7 +1218,7 @@
 		(dnp no)
 		(uuid "ae4fd3a5-5dba-44f5-9bd5-a962174ae839")
 		(property "Reference" "U12"
-			(at 99.822 67.056 0)
+			(at 145.542 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1228,7 +1228,7 @@
 			)
 		)
 		(property "Value" "CH340C"
-			(at 102.362 107.188 0)
+			(at 148.082 112.268 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1238,7 +1238,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 90.678 118.618 0)
+			(at 136.398 123.698 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1250,7 +1250,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf"
-			(at 102.616 115.57 0)
+			(at 148.336 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1261,7 +1261,7 @@
 			)
 		)
 		(property "Description" "USB serial converter, crystal-less, UART, SOIC-16"
-			(at 107.696 112.776 0)
+			(at 153.416 117.856 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1330,7 +1330,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 76.2 90)
+		(at 180.34 81.28 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1340,7 +1340,7 @@
 		(dnp no)
 		(uuid "c550688c-8ef6-4362-92d6-451fa67c6529")
 		(property "Reference" "R5"
-			(at 134.62 67.564 90)
+			(at 180.34 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1350,7 +1350,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 134.62 70.104 90)
+			(at 180.34 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1360,7 +1360,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 134.62 77.978 90)
+			(at 180.34 83.058 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1371,7 +1371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 76.2 0)
+			(at 180.34 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1382,7 +1382,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 134.62 76.2 0)
+			(at 180.34 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1409,7 +1409,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 124.46 73.66 90)
+		(at 170.18 78.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1420,7 +1420,7 @@
 		(fields_autoplaced yes)
 		(uuid "e44f01f9-8557-4462-98b0-8c4579ec33ba")
 		(property "Reference" "R4"
-			(at 124.46 67.31 90)
+			(at 170.18 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1430,7 +1430,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 124.46 69.85 90)
+			(at 170.18 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1440,7 +1440,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 124.46 75.438 90)
+			(at 170.18 80.518 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1451,7 +1451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 73.66 0)
+			(at 170.18 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1462,7 +1462,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 73.66 0)
+			(at 170.18 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

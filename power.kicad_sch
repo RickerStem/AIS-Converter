@@ -524,6 +524,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:FerriteBead"
 			(pin_numbers
 				(hide yes)
@@ -679,6 +845,283 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Q_PMOS_Depletion"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_PMOS_Depletion"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Depletion-mode P-channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_PMOS_Depletion_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_PMOS_Depletion_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1384,7 +1827,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Rick:B2403S-1WR3"
+		(symbol "Rick:B1205S-2WR3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1400,7 +1843,7 @@
 					)
 				)
 			)
-			(property "Value" "B2403S-1WR3"
+			(property "Value" "B1205S-2WR3"
 				(at -0.762 -6.604 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1410,7 +1853,7 @@
 					)
 				)
 			)
-			(property "Footprint" "1_Custom_Rick:B2403S-1WR3"
+			(property "Footprint" ""
 				(at 0 -6.604 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1443,81 +1886,7 @@
 					)
 				)
 			)
-			(symbol "B2403S-1WR3_0_0"
-				(pin power_in line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "-Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "+Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "-Vout"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "+Vout"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "B2403S-1WR3_0_1"
+			(symbol "B1205S-2WR3_0_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -5.08)
@@ -1575,6 +1944,80 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "B1205S-2WR3_1_0"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "0V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "+Vo"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -1746,16 +2189,6 @@
 		)
 		(uuid "aabdeb6b-2121-40f1-9ded-524e0fc9092d")
 	)
-	(text "Wrong version this is 24 to 3.3 need 12 to 5v\n"
-		(exclude_from_sim no)
-		(at 111.506 26.162 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c0fd0776-7b75-467f-b047-9b396ef9af68")
-	)
 	(text "Increasing the output voltage, connect R between ADJ and -VDC"
 		(exclude_from_sim no)
 		(at 60.706 66.294 0)
@@ -1804,6 +2237,18 @@
 		(uuid "00c64a9d-8d39-4b74-b6e8-659dd6c17b0b")
 	)
 	(junction
+		(at 69.85 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d01c899-4b85-407b-b336-b7bbc7761f39")
+	)
+	(junction
+		(at 91.44 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14a71947-f5a9-4d05-8953-eaa01b4ea0a0")
+	)
+	(junction
 		(at 132.08 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1822,16 +2267,22 @@
 		(uuid "3262239b-cf3d-498b-8f1f-9dfe449a78c2")
 	)
 	(junction
-		(at 162.56 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4425be6a-f6ef-436e-91fd-349f4492f6eb")
-	)
-	(junction
 		(at 142.24 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5dd2f7fd-3c1d-45f9-bed8-a9b2eb5dc400")
+	)
+	(junction
+		(at 162.56 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "672fcbfe-355b-460f-9bb4-8ea0d590f4ff")
+	)
+	(junction
+		(at 44.45 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67788f9f-999d-4a92-876f-9c24d6e4169b")
 	)
 	(junction
 		(at 59.69 97.79)
@@ -1855,7 +2306,7 @@
 		(at 97.79 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b39b278b-541d-48ef-8ec0-21b28aa263ca")
+		(uuid "bc818d0f-591a-41d6-b3d8-326c68765df7")
 	)
 	(junction
 		(at 203.2 82.55)
@@ -1864,16 +2315,16 @@
 		(uuid "d486944b-8b61-443b-9e34-90da2d8480b7")
 	)
 	(junction
-		(at 142.24 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db4aff62-b48f-485c-aa9b-e3a7fc2e0ac2")
-	)
-	(junction
 		(at 132.08 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcf1d84a-6734-4c7c-85c2-85a0df09e13f")
+	)
+	(junction
+		(at 142.24 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2a1e202-4685-41b6-958c-1d04977f1d55")
 	)
 	(junction
 		(at 205.74 82.55)
@@ -1895,6 +2346,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 41.91) (xy 91.44 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ecf176-a893-494a-a107-491a4b03e9eb")
+	)
+	(wire
+		(pts
 			(xy 218.44 95.25) (xy 218.44 100.33)
 		)
 		(stroke
@@ -1905,7 +2366,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 36.83) (xy 100.33 36.83)
+			(xy 30.48 36.83) (xy 44.45 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1952,6 +2413,16 @@
 			(type default)
 		)
 		(uuid "0c8215ba-a3b3-4964-b178-6fe5e262b194")
+	)
+	(wire
+		(pts
+			(xy 57.15 44.45) (xy 57.15 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163089e3-db05-4f19-8a59-546d459b835d")
 	)
 	(wire
 		(pts
@@ -2095,6 +2566,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 26.67) (xy 44.45 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4357c5c1-482c-44b4-8e93-de5ce84ec75d")
+	)
+	(wire
+		(pts
 			(xy 172.72 41.91) (xy 172.72 36.83)
 		)
 		(stroke
@@ -2205,13 +2686,23 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 82.55) (xy 162.56 82.55)
+			(xy 156.21 82.55) (xy 162.56 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "70909a2a-c4b7-4cd2-9d91-7a256727d051")
+	)
+	(wire
+		(pts
+			(xy 91.44 41.91) (xy 97.79 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b6a342-0659-43d4-96f3-b98a3003a85b")
 	)
 	(wire
 		(pts
@@ -2275,13 +2766,33 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 82.55) (xy 146.05 82.55)
+			(xy 69.85 26.67) (xy 69.85 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869e8b99-3620-4837-a06f-dd11ad8061ad")
+	)
+	(wire
+		(pts
+			(xy 142.24 82.55) (xy 148.59 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "899995d7-2f13-487c-ac73-bb7e7634acd3")
+	)
+	(wire
+		(pts
+			(xy 69.85 36.83) (xy 100.33 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae7a886-e8a2-43ef-81c5-dcf86608ed4d")
 	)
 	(wire
 		(pts
@@ -2292,6 +2803,16 @@
 			(type default)
 		)
 		(uuid "8ca1e557-875f-4ed5-84eb-e43f7271f585")
+	)
+	(wire
+		(pts
+			(xy 60.96 26.67) (xy 69.85 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e9433dc-8575-4a30-9150-91c3fd54845b")
 	)
 	(wire
 		(pts
@@ -2335,6 +2856,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 36.83) (xy 52.07 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d89c3d6-9c54-4777-9bd0-c1c1991d1f8e")
+	)
+	(wire
+		(pts
 			(xy 124.46 41.91) (xy 124.46 50.8)
 		)
 		(stroke
@@ -2342,6 +2873,26 @@
 			(type default)
 		)
 		(uuid "a3579a75-1e69-4d15-a85d-a91f042a3844")
+	)
+	(wire
+		(pts
+			(xy 53.34 26.67) (xy 44.45 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a49ba4b4-a5ce-4230-a25c-c29e5447f080")
+	)
+	(wire
+		(pts
+			(xy 62.23 36.83) (xy 69.85 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a89e0740-b601-40d0-9ae9-825838860821")
 	)
 	(wire
 		(pts
@@ -2505,7 +3056,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 41.91) (xy 97.79 41.91)
+			(xy 88.9 41.91) (xy 91.44 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2599,7 +3150,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 92.71 41.91 180)
+		(at 88.9 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2629,6 +3180,84 @@
 			(justify right)
 		)
 		(uuid "ec9233a7-33cf-4d5a-9a25-045290fe8b8c")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ac0fd29-3ed9-4bca-bc62-c9a34280761b")
+		(property "Reference" "#PWR034"
+			(at 57.15 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab20e857-2e45-45ff-a569-2af412b4d3ee")
+		)
+		(instances
+			(project "AIS-Converter"
+				(path "/af2e2bda-c8b0-494b-9cbc-4303d4ae7608/129c204b-2a58-4519-abe1-43b32e5912d0"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Analog_Switch:MAX40200AUK")
@@ -2973,19 +3602,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 149.86 82.55 90)
+		(lib_id "Device:Q_PMOS_Depletion")
+		(at 57.15 39.37 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "32c621d4-cc97-4508-86ca-33e26860d137")
-		(property "Reference" "FB7"
-			(at 149.8092 74.93 90)
+		(uuid "17b5ba3a-e654-4b2a-8742-b3d1b7255a94")
+		(property "Reference" "Q5"
+			(at 57.15 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2994,8 +3623,8 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
-			(at 149.8092 77.47 90)
+		(property "Value" "Q_PMOS_Depletion"
+			(at 57.15 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3004,8 +3633,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 149.86 84.328 90)
+		(property "Footprint" ""
+			(at 54.61 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3016,7 +3645,90 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 82.55 0)
+			(at 57.15 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Depletion-mode P-channel MOSFET"
+			(at 57.15 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "D"
+			(uuid "7a64bf4e-440b-4884-8713-94979bf23e2f")
+		)
+		(pin "G"
+			(uuid "a5e82cb7-e016-4ef7-ad8a-1647e1cf2a71")
+		)
+		(pin "S"
+			(uuid "7c883186-62be-4eac-8198-47f1838a58fb")
+		)
+		(instances
+			(project "AIS-Converter"
+				(path "/af2e2bda-c8b0-494b-9cbc-4303d4ae7608/129c204b-2a58-4519-abe1-43b32e5912d0"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 152.4 82.55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32c621d4-cc97-4508-86ca-33e26860d137")
+		(property "Reference" "FB7"
+			(at 152.3492 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 152.3492 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 152.4 84.328 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3027,7 +3739,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 149.86 82.55 0)
+			(at 152.4 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3053,8 +3765,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rick:B2403S-1WR3")
-		(at 110.49 39.37 0)
+		(lib_id "power:GND")
+		(at 91.44 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3063,9 +3775,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3330a1df-7e6b-49ec-8127-c6416a4486dc")
-		(property "Reference" "U11"
-			(at 110.49 29.21 0)
+		(uuid "37897482-d66d-4e42-bac5-bd6507617b9e")
+		(property "Reference" "#PWR033"
+			(at 91.44 60.96 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3074,8 +3787,8 @@
 				)
 			)
 		)
-		(property "Value" "B2403S-1WR3"
-			(at 110.49 31.75 0)
+		(property "Value" "GND"
+			(at 91.44 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3084,8 +3797,8 @@
 				)
 			)
 		)
-		(property "Footprint" "1_Custom_Rick:B2403S-1WR3"
-			(at 110.49 45.974 0)
+		(property "Footprint" ""
+			(at 91.44 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3096,7 +3809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 48.26 0)
+			(at 91.44 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3106,8 +3819,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 110.49 39.37 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3116,23 +3829,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "becc894f-d4f6-4197-afdf-dff92e3de9c7")
-		)
-		(pin "3"
-			(uuid "d5a39ac3-87fa-49d5-9b5d-f063f1db1da4")
-		)
-		(pin "4"
-			(uuid "2da8c0b2-3371-4ffa-adc6-ea418d1e3946")
 		)
 		(pin "1"
-			(uuid "f9b2ad98-34cc-47a6-847f-775495796b45")
+			(uuid "9cbc09ca-d04b-4dd9-b4b5-115b3a29ad33")
 		)
 		(instances
 			(project "AIS-Converter"
 				(path "/af2e2bda-c8b0-494b-9cbc-4303d4ae7608/129c204b-2a58-4519-abe1-43b32e5912d0"
-					(reference "U11")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3398,7 +4102,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "0R"
 			(at 91.3892 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3810,7 +4514,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "0R"
 			(at 79.9592 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3890,7 +4594,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "0R"
 			(at 79.9592 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4175,7 +4879,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "86cf0532-eece-4843-af5b-2944e3ebb2a8")
+			(uuid "86cf0532-eece-4843-af5b-2944e3ebb2a9")
 		)
 		(instances
 			(project "AIS-Converter"
@@ -4368,7 +5072,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "0R"
 			(at 68.5292 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4448,7 +5152,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "0R"
 			(at 68.5292 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4501,6 +5205,86 @@
 			(project "AIS-Converter"
 				(path "/af2e2bda-c8b0-494b-9cbc-4303d4ae7608/129c204b-2a58-4519-abe1-43b32e5912d0"
 					(reference "FB4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 57.15 26.67 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da1088c5-fed8-4367-b704-f12a567ed5ba")
+		(property "Reference" "D3"
+			(at 57.4675 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 57.4675 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 57.15 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 57.15 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d06a011-ca51-4d70-99e2-5d987143ad8f")
+		)
+		(pin "2"
+			(uuid "239103ab-0193-4c8a-bd27-a03b68b24776")
+		)
+		(instances
+			(project "AIS-Converter"
+				(path "/af2e2bda-c8b0-494b-9cbc-4303d4ae7608/129c204b-2a58-4519-abe1-43b32e5912d0"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4671,7 +5455,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "86cf0532-eece-4843-af5b-2944e3ebb2a8")
+			(uuid "86cf0532-eece-4843-af5b-2944e3ebb2aa")
 		)
 		(instances
 			(project "AIS-Converter"
@@ -4704,7 +5488,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "0R"
 			(at 91.3892 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4757,6 +5541,92 @@
 			(project "AIS-Converter"
 				(path "/af2e2bda-c8b0-494b-9cbc-4303d4ae7608/129c204b-2a58-4519-abe1-43b32e5912d0"
 					(reference "FB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rick:B1205S-2WR3")
+		(at 110.49 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f11bbb59-c1ea-42c5-abe0-924257466c9a")
+		(property "Reference" "U11"
+			(at 110.49 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B1205S-2WR3"
+			(at 110.49 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 45.974 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "4b372a68-cfd3-4f16-94fa-26a935160029")
+		)
+		(pin "2"
+			(uuid "d94d5ae9-f0c1-47ae-a68e-6a9c78124142")
+		)
+		(pin "1"
+			(uuid "304b2487-5ecc-49e7-9062-8d531abe5327")
+		)
+		(pin "6"
+			(uuid "ad968a26-0d80-4f69-9f2d-4cf295ca524f")
+		)
+		(instances
+			(project "AIS-Converter"
+				(path "/af2e2bda-c8b0-494b-9cbc-4303d4ae7608/129c204b-2a58-4519-abe1-43b32e5912d0"
+					(reference "U11")
 					(unit 1)
 				)
 			)
