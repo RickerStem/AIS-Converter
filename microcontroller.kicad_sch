@@ -1634,6 +1634,27 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "| Pin | Default | Description |\n| --- | --- | --- |\n| IO5 | Pull-up | Voltage level of IO5 and IO15 affects the timing of SDIO Slave. |\n| IO0 | Pull-up | Pull LOW to enter download mode. |\n| IO2 | Pull-down | IO0 and IO2 together will make ESP32 enter download mode. |\n| IO12 (MTDI) | Pull-down | Pull HIGH and ESP32 will fail to boot normally. |\n| IO15 (MTDO) | Pull-up | Pull LOW to disable debug log output. Voltage level of IO5 and IO15 affects SDIO Slave timing. |"
+		(exclude_from_sim no)
+		(at 123.19 36.068 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37faa625-ff21-492a-98b3-6beb2673b393")
+	)
+	(text "strapping pin"
+		(exclude_from_sim no)
+		(at 198.628 73.914 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4a08ac7b-53fb-46c5-b442-c2e41e278ba8")
+	)
 	(text "RMII with 50Mhz ETH_CLK from IO17 (ESP32 APLL)\n(WiFi/Bluetooth not possible when using Ethernet)"
 		(exclude_from_sim no)
 		(at 215.138 95.25 0)
@@ -1644,15 +1665,15 @@
 		)
 		(uuid "71556a05-5575-498b-8c84-be353d7309a3")
 	)
-	(text "Valid pins?"
+	(text "Optional for future design"
 		(exclude_from_sim no)
-		(at 170.942 74.168 0)
+		(at 228.6 140.716 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "78d3ec83-8415-412b-89b2-a754e63d3013")
+		(uuid "9e35dea0-1038-444a-aae0-8f8ac71afad5")
 	)
 	(junction
 		(at 41.91 82.55)
@@ -1691,12 +1712,38 @@
 		(uuid "d200a885-dd3d-4cf4-aea5-dd5b9e73ed21")
 	)
 	(no_connect
-		(at 161.29 73.66)
-		(uuid "508f7c43-82ca-44e0-86fe-f67be9dce97c")
+		(at 222.25 147.32)
+		(uuid "143abc1b-ee8f-44d8-add9-8acfa498ec61")
+	)
+	(no_connect
+		(at 222.25 149.86)
+		(uuid "542ed867-4cee-40f2-841f-3c3b305ee529")
+	)
+	(no_connect
+		(at 161.29 66.04)
+		(uuid "74986d75-b94c-48d1-a0fe-c5400a82ab54")
 	)
 	(no_connect
 		(at 161.29 81.28)
 		(uuid "872311a2-a426-437f-bd75-506c2d434c9f")
+	)
+	(no_connect
+		(at 161.29 71.12)
+		(uuid "cf2fb942-441f-4488-86e4-7e14ed6bfd2a")
+	)
+	(no_connect
+		(at 222.25 144.78)
+		(uuid "d7a0602e-e530-4d78-879d-551b33f192e7")
+	)
+	(wire
+		(pts
+			(xy 161.29 73.66) (xy 166.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "014a3618-39db-482e-98f8-afe0b9739a33")
 	)
 	(wire
 		(pts
@@ -1740,6 +1787,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 109.22) (xy 177.8 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "119f7b1a-4650-44d2-97b3-d0fee2f202ef")
+	)
+	(wire
+		(pts
 			(xy 102.87 60.96) (xy 102.87 81.28)
 		)
 		(stroke
@@ -1770,6 +1827,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 114.3) (xy 177.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d5507a-ee2d-4693-a0fd-2b2cf7432519")
+	)
+	(wire
+		(pts
 			(xy 161.29 99.06) (xy 177.8 99.06)
 		)
 		(stroke
@@ -1777,6 +1844,16 @@
 			(type default)
 		)
 		(uuid "483667b7-6317-4887-9922-8454ecb5603e")
+	)
+	(wire
+		(pts
+			(xy 161.29 83.82) (xy 177.8 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ae56b5-59f3-4daf-a3d5-c2aeea31196e")
 	)
 	(wire
 		(pts
@@ -1797,6 +1874,16 @@
 			(type default)
 		)
 		(uuid "4de93ce4-ed60-42af-ad12-52f1cbda6a6a")
+	)
+	(wire
+		(pts
+			(xy 161.29 116.84) (xy 177.8 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4faa50ce-3d4a-48c8-aa3b-a648b29e0168")
 	)
 	(wire
 		(pts
@@ -1847,6 +1934,16 @@
 			(type default)
 		)
 		(uuid "6427e6c2-2a9d-4101-a5b8-5219481a6f8a")
+	)
+	(wire
+		(pts
+			(xy 161.29 111.76) (xy 177.8 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a9396bb-ad56-4bd7-94d8-bdda2045ca92")
 	)
 	(wire
 		(pts
@@ -1960,6 +2057,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 114.3) (xy 130.81 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aacdfda7-f360-4b6d-9478-9ab028de2b1a")
+	)
+	(wire
+		(pts
 			(xy 130.81 104.14) (xy 66.04 104.14)
 		)
 		(stroke
@@ -1967,6 +2074,16 @@
 			(type default)
 		)
 		(uuid "acbd034a-d64d-4265-ac75-9424402b2af6")
+	)
+	(wire
+		(pts
+			(xy 173.99 73.66) (xy 177.8 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade6ffbb-3d17-4363-a668-7efe868b6774")
 	)
 	(wire
 		(pts
@@ -2050,6 +2167,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 68.58) (xy 177.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd3b8a7-c349-496d-aae5-9f6a8af8404c")
+	)
+	(wire
+		(pts
 			(xy 66.04 87.63) (xy 66.04 88.9)
 		)
 		(stroke
@@ -2109,6 +2236,17 @@
 		)
 		(uuid "036b675c-d315-4456-8f84-892e15302406")
 	)
+	(hierarchical_label "AIS_PPS"
+		(shape input)
+		(at 222.25 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "047856bd-a036-4f5c-9d18-61917f379405")
+	)
 	(hierarchical_label "AIS_UART0_TX"
 		(shape input)
 		(at 177.8 76.2 0)
@@ -2120,7 +2258,18 @@
 		)
 		(uuid "07f937e6-1226-412e-b210-4614e58510ed")
 	)
-	(hierarchical_label "AIS_UART_RX"
+	(hierarchical_label "NMEA0183_TX"
+		(shape output)
+		(at 177.8 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e299d9c-fdc6-4a1e-a4b7-da62b8c6db1b")
+	)
+	(hierarchical_label "AIS_UART0_RX"
 		(shape input)
 		(at 177.8 78.74 0)
 		(effects
@@ -2163,6 +2312,39 @@
 			(justify right)
 		)
 		(uuid "3376d9ae-b243-495b-909b-fd6c343a80b6")
+	)
+	(hierarchical_label "MODEM_RX"
+		(shape input)
+		(at 177.8 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "385d32b3-21d8-4ddc-b434-fbb566e635f2")
+	)
+	(hierarchical_label "NMEA0183_RX"
+		(shape input)
+		(at 177.8 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ae5c199-697b-4d5a-9a76-5a492020e953")
+	)
+	(hierarchical_label "CAN_TX"
+		(shape input)
+		(at 177.8 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "571a86ef-aa82-4ba5-88fa-e452b0ec6076")
 	)
 	(hierarchical_label "RXD1"
 		(shape input)
@@ -2208,6 +2390,28 @@
 		)
 		(uuid "724b6c04-0bc4-4bcd-914a-fc88ef82b56d")
 	)
+	(hierarchical_label "MODEM_TX"
+		(shape output)
+		(at 177.8 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75bd5ec9-0d89-43b9-9370-0142c5fb9d81")
+	)
+	(hierarchical_label "CAN_RX"
+		(shape output)
+		(at 177.8 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "87a3448e-1a75-4b26-9626-75df50152bfd")
+	)
 	(hierarchical_label "MDIO"
 		(shape bidirectional)
 		(at 177.8 88.9 0)
@@ -2241,6 +2445,17 @@
 		)
 		(uuid "a0139187-a4c3-4146-97b1-b9e39261ed65")
 	)
+	(hierarchical_label "AIS_UART1_RX"
+		(shape input)
+		(at 222.25 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aafe85ef-765f-420f-bde7-a6be4ee6c18f")
+	)
 	(hierarchical_label "CH_DTR"
 		(shape input)
 		(at 34.29 82.55 180)
@@ -2251,6 +2466,17 @@
 			(justify right)
 		)
 		(uuid "cc6913f5-46f3-4748-b7ba-18d117c602da")
+	)
+	(hierarchical_label "AIS_UART1_TX"
+		(shape output)
+		(at 222.25 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea5e0835-4d8a-436f-927d-0414131a0b7c")
 	)
 	(hierarchical_label "GND"
 		(shape output)
@@ -2284,6 +2510,28 @@
 			(justify left)
 		)
 		(uuid "f7fd2643-169f-48f3-973f-f243423e240e")
+	)
+	(hierarchical_label "MODEM_DTR"
+		(shape input)
+		(at 123.19 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fae581e8-f256-4c84-bd1f-060b333a8c30")
+	)
+	(hierarchical_label "MODEM_PWR"
+		(shape input)
+		(at 177.8 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff31f5c5-089d-4386-a539-ff9f3411c058")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3210,6 +3458,86 @@
 			(project "AIS-Converter"
 				(path "/af2e2bda-c8b0-494b-9cbc-4303d4ae7608/f7b96531-3096-4981-b0a1-7516608a6c61"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 170.18 73.66 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "fa081fe8-530f-4206-89ab-e519c52cfe0e")
+		(property "Reference" "R59"
+			(at 170.18 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 170.18 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 170.18 75.438 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 170.18 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "239242d5-a106-459f-bbda-de82bb2c215e")
+		)
+		(pin "1"
+			(uuid "8ffe5b78-23bb-43bd-8c81-a8ea7acaafed")
+		)
+		(instances
+			(project "AIS-Converter"
+				(path "/af2e2bda-c8b0-494b-9cbc-4303d4ae7608/f7b96531-3096-4981-b0a1-7516608a6c61"
+					(reference "R59")
 					(unit 1)
 				)
 			)

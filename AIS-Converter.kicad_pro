@@ -692,7 +692,7 @@
         "uuid": "af2e2bda-c8b0-494b-9cbc-4303d4ae7608"
       }
     ],
-    "used_designators": "U2-6,U9-15,R1-12,R34-53,J1-3,D1-4,D10,#PWR1-7,#PWR10-38,FB1-10,C1-19,C32-33,Q5-8",
+    "used_designators": "U2-6,U9-17,R1-12,R34-61,J1-3,J5,J8-9,D1-4,D10-14,#PWR1-7,#PWR10-40,#PWR56,#PWR62-79,FB1-10,C1-19,C32-38,Q5-8",
     "variants": []
   },
   "sheets": [
@@ -719,6 +719,14 @@
     [
       "15d7caea-6a3c-45de-a05c-9dde2b950fc6",
       "USB to Serial"
+    ],
+    [
+      "d10db37b-88ce-498b-9bd9-dba6b37ef930",
+      "NMEA0183"
+    ],
+    [
+      "a16d30b4-4e95-4c64-a04b-091ccbef3694",
+      "NMEA2000"
     ]
   ],
   "text_variables": {},

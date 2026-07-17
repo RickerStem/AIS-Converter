@@ -5487,10 +5487,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2fc2d234-ab5f-4a68-861a-435b8f8e7edf")
+			(uuid "2fc2d234-ab5f-4a68-861a-435b8f8e7ee0")
 		)
 		(pin "2"
-			(uuid "5701061a-3261-43a7-ba15-c51e497edaec")
+			(uuid "5701061a-3261-43a7-ba15-c51e497edaed")
 		)
 		(instances
 			(project "AIS-Converter"
