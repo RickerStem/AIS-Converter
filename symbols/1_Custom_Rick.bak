@@ -13470,7 +13470,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf"
-			(at -3.81 0 0)
+			(at -10.16 -12.446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -13481,7 +13481,7 @@
 			)
 		)
 		(property "Description" "7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23"
-			(at 0 0 0)
+			(at -6.604 -11.176 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)

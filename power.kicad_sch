@@ -2177,7 +2177,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Rick:B1205S-2WR3"
 				(at 0 -6.604 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4087,7 +4087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 126.6952 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4169,7 +4169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 236.5248 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4898,7 +4898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 207.9752 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5381,7 +5381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 136.8552 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6439,7 +6439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 157.1752 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7097,7 +7097,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rick:B1205S-2WR3"
 			(at 104.14 45.974 0)
 			(hide yes)
 			(show_name no)

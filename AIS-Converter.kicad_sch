@@ -1194,6 +1194,194 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -8208,9 +8396,9 @@
 		)
 		(uuid "459f0e9b-48ff-420d-bcc9-3b928c6e3658")
 	)
-	(text "TODO:\n- SCHEMATIC CHECK"
+	(text "TODO:\n- REVIEW SCHEMA\n- NMEA2000 only as INPUT"
 		(exclude_from_sim no)
-		(at 446.278 127.254 0)
+		(at 280.162 216.408 0)
 		(effects
 			(font
 				(size 5 5)
@@ -8850,7 +9038,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 115.57) (xy 368.3 125.73)
+			(xy 368.3 109.22) (xy 368.3 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8897,6 +9085,16 @@
 			(type default)
 		)
 		(uuid "314c569e-7341-4a64-bb7d-80a114e5f6a0")
+	)
+	(wire
+		(pts
+			(xy 368.3 119.38) (xy 368.3 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "320e6aa9-6325-46f8-8467-17e8181488e4")
 	)
 	(wire
 		(pts
@@ -9940,7 +10138,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 33.02) (xy 73.66 33.02)
+			(xy 35.56 33.02) (xy 49.53 33.02)
 		)
 		(stroke
 			(width 0)
@@ -10567,6 +10765,16 @@
 			(type default)
 		)
 		(uuid "fe9c7b08-76d0-47c3-a9b3-9d77baf7dfa5")
+	)
+	(wire
+		(pts
+			(xy 57.15 33.02) (xy 73.66 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff0880fa-36d0-4ab2-88f3-969344cb9bda")
 	)
 	(wire
 		(pts
@@ -11206,6 +11414,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 53.34 33.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18bfa7f2-8cef-41c2-8917-57d66b1b9f02")
+		(property "Reference" "D14"
+			(at 53.34 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 53.34 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
+			(at 53.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 53.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 53.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 53.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e7ab58c-ead4-432a-986f-29e9715dc2d9")
+		)
+		(pin "2"
+			(uuid "feb52db4-4a67-4cd8-85c3-e2d2f5da3cff")
+		)
+		(instances
+			(project "AIS-Converter"
+				(path "/af2e2bda-c8b0-494b-9cbc-4303d4ae7608"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 372.11 172.72 0)
 		(unit 1)
@@ -11273,7 +11583,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee1a7dd2-af0d-4235-b4a3-21a5db5e17e6")
+			(uuid "ee1a7dd2-af0d-4235-b4a3-21a5db5e17e7")
 		)
 		(instances
 			(project "AIS-Converter"
@@ -11633,7 +11943,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee1a7dd2-af0d-4235-b4a3-21a5db5e17e6")
+			(uuid "ee1a7dd2-af0d-4235-b4a3-21a5db5e17e8")
 		)
 		(instances
 			(project "AIS-Converter"
@@ -11725,7 +12035,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VP")
-		(at 368.3 115.57 0)
+		(at 368.3 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11735,7 +12045,7 @@
 		(dnp no)
 		(uuid "2f3389b0-d8d0-4e8d-9358-68dc4e3a41b0")
 		(property "Reference" "#PWR073"
-			(at 368.3 119.38 0)
+			(at 368.3 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11746,7 +12056,7 @@
 			)
 		)
 		(property "Value" "VP12V"
-			(at 368.3 112.014 0)
+			(at 368.3 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11756,7 +12066,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 115.57 0)
+			(at 368.3 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11767,7 +12077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 115.57 0)
+			(at 368.3 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11778,7 +12088,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 368.3 115.57 0)
+			(at 368.3 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13956,6 +14266,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 368.3 115.57 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b5cbeca-e08f-426d-b1c7-0c99a8e59820")
+		(property "Reference" "D15"
+			(at 370.84 114.2999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 370.84 116.8399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
+			(at 368.3 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 368.3 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 368.3 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 368.3 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e7ab58c-ead4-432a-986f-29e9715dc2da")
+		)
+		(pin "2"
+			(uuid "feb52db4-4a67-4cd8-85c3-e2d2f5da3d00")
+		)
+		(instances
+			(project "AIS-Converter"
+				(path "/af2e2bda-c8b0-494b-9cbc-4303d4ae7608"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 168.91 213.36 0)
 		(unit 1)
@@ -14338,7 +14752,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee1a7dd2-af0d-4235-b4a3-21a5db5e17e6")
+			(uuid "ee1a7dd2-af0d-4235-b4a3-21a5db5e17e9")
 		)
 		(instances
 			(project "AIS-Converter"
@@ -14438,7 +14852,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af77fd53-f39f-4a6c-a634-3e63fd0837a7")
-		(property "Reference" "PoE+"
+		(property "Reference" "PoE+1"
 			(at 97.79 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14500,7 +14914,7 @@
 		(instances
 			(project "AIS-Converter"
 				(path "/af2e2bda-c8b0-494b-9cbc-4303d4ae7608"
-					(reference "PoE+")
+					(reference "PoE+1")
 					(unit 1)
 				)
 			)
@@ -14830,7 +15244,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b897a808-ea7a-4871-b9b2-9732de4f6e64")
-		(property "Reference" "PoE-"
+		(property "Reference" "PoE-1"
 			(at 91.44 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14892,7 +15306,7 @@
 		(instances
 			(project "AIS-Converter"
 				(path "/af2e2bda-c8b0-494b-9cbc-4303d4ae7608"
-					(reference "PoE-")
+					(reference "PoE-1")
 					(unit 1)
 				)
 			)
@@ -17108,7 +17522,7 @@
 				(justify right)
 			)
 		)
-		(pin "VP12V" passive
+		(pin "VP12V" input
 			(at 120.65 33.02 180)
 			(uuid "691ad97c-6099-4a6c-949c-6926426754c7")
 			(effects
