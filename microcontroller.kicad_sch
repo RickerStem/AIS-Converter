@@ -1706,6 +1706,12 @@
 		(uuid "96a5e9da-0a2f-4f30-95ec-bc62fa53e21b")
 	)
 	(junction
+		(at 90.17 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b15d9d07-e1b2-4da1-a517-3a46a9ba92eb")
+	)
+	(junction
 		(at 116.84 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1824,6 +1830,16 @@
 			(type default)
 		)
 		(uuid "3ada3286-1cc6-48b4-b343-4a9d4cc9cf1a")
+	)
+	(wire
+		(pts
+			(xy 90.17 81.28) (xy 90.17 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "428d7745-110a-495d-a5b9-777d31d581b8")
 	)
 	(wire
 		(pts
@@ -1954,6 +1970,16 @@
 			(type default)
 		)
 		(uuid "6e090ba9-f25f-49c1-b030-0f73cbf998e8")
+	)
+	(wire
+		(pts
+			(xy 90.17 88.9) (xy 90.17 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "715ee812-e324-41d3-9817-b78b959b5541")
 	)
 	(wire
 		(pts
@@ -2137,6 +2163,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 60.96) (xy 102.87 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be36a2fb-2883-40dd-a093-274171b7123f")
+	)
+	(wire
+		(pts
 			(xy 34.29 121.92) (xy 123.19 121.92)
 		)
 		(stroke
@@ -2207,7 +2243,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 60.96) (xy 87.63 60.96)
+			(xy 87.63 60.96) (xy 90.17 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3382,6 +3418,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 90.17 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcd522d1-0c24-4d66-8205-1a76175fdbc0")
+		(property "Reference" "#PWR076"
+			(at 90.17 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cac6fb55-a3e4-48d9-8394-72e1e807fe0e")
+		)
+		(instances
+			(project "AIS-Converter"
+				(path "/af2e2bda-c8b0-494b-9cbc-4303d4ae7608/f7b96531-3096-4981-b0a1-7516608a6c61"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 116.84 85.09 0)
 		(unit 1)
@@ -3458,6 +3572,88 @@
 			(project "AIS-Converter"
 				(path "/af2e2bda-c8b0-494b-9cbc-4303d4ae7608/f7b96531-3096-4981-b0a1-7516608a6c61"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 90.17 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f420b27e-b505-4da5-947e-ac6d606aaee0")
+		(property "Reference" "C36"
+			(at 93.98 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 93.98 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 91.1352 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 90.17 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6353d63c-cc51-4cd3-967d-31b9f9777324")
+		)
+		(pin "2"
+			(uuid "a7296b9d-d10b-4399-9a0f-cca4c7123b14")
+		)
+		(instances
+			(project "AIS-Converter"
+				(path "/af2e2bda-c8b0-494b-9cbc-4303d4ae7608/f7b96531-3096-4981-b0a1-7516608a6c61"
+					(reference "C36")
 					(unit 1)
 				)
 			)
