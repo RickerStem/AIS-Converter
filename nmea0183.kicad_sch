@@ -3454,13 +3454,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "9772e4b9-adf4-41cb-a40c-09a680a1867f")
+			(uuid "9772e4b9-adf4-41cb-a40c-09a680a18680")
 		)
 		(pin "1"
-			(uuid "ea6c1ea1-884b-477c-83d2-6371ca4e8f8e")
+			(uuid "ea6c1ea1-884b-477c-83d2-6371ca4e8f8f")
 		)
 		(pin "2"
-			(uuid "917f52b3-d19e-425b-abcb-3c7f5414a0ce")
+			(uuid "917f52b3-d19e-425b-abcb-3c7f5414a0cf")
 		)
 		(instances
 			(project "AIS-Converter"

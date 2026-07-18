@@ -1657,7 +1657,7 @@
 	)
 	(text "RMII with 50Mhz ETH_CLK from IO17 (ESP32 APLL)\n(WiFi/Bluetooth not possible when using Ethernet)"
 		(exclude_from_sim no)
-		(at 215.138 95.25 0)
+		(at 216.916 86.614 0)
 		(effects
 			(font
 				(size 1.27 1.27)

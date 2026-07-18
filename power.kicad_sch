@@ -192,6 +192,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2402,7 +2525,7 @@
 	)
 	(text "When disabled (EN = low) \nblocks up to 6V"
 		(exclude_from_sim no)
-		(at 157.988 135.128 0)
+		(at 142.748 135.128 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2468,10 +2591,22 @@
 		(uuid "2d7dc194-e50d-454b-9674-cfa9f1ce2751")
 	)
 	(junction
+		(at 161.29 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34112e25-40fc-467f-8b18-3b6cdfe84e1f")
+	)
+	(junction
 		(at 251.46 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46ac13a6-1a7d-428b-bd59-8f990af3de7d")
+	)
+	(junction
+		(at 161.29 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b99495a-7a16-45e7-99be-c5cc3b4735f1")
 	)
 	(junction
 		(at 237.49 82.55)
@@ -2538,6 +2673,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c36e0bbf-0dfa-4bb2-bd49-b9046d2959f0")
+	)
+	(junction
+		(at 161.29 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cca4031c-5f64-46c9-9779-d777c682b026")
 	)
 	(junction
 		(at 196.85 82.55)
@@ -2677,6 +2818,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 138.43) (xy 166.37 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d6766d-e4f4-4f43-a3cd-697f082fe77e")
+	)
+	(wire
+		(pts
 			(xy 210.82 71.12) (xy 210.82 82.55)
 		)
 		(stroke
@@ -2777,7 +2928,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 82.55) (xy 166.37 82.55)
+			(xy 156.21 82.55) (xy 161.29 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2804,6 +2955,16 @@
 			(type default)
 		)
 		(uuid "35887e43-80a6-4e43-beb3-6900beae6ae4")
+	)
+	(wire
+		(pts
+			(xy 161.29 76.2) (xy 161.29 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384c29c3-e97f-4d84-87dd-cce9c3afeee2")
 	)
 	(wire
 		(pts
@@ -2897,6 +3058,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 30.48) (xy 161.29 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "521e0c88-74bf-4ea4-8963-c66ffd5022c5")
+	)
+	(wire
+		(pts
 			(xy 190.5 36.83) (xy 196.85 36.83)
 		)
 		(stroke
@@ -2954,6 +3125,16 @@
 			(type default)
 		)
 		(uuid "5f0f634c-c441-40bd-a6f2-6a0407bbca57")
+	)
+	(wire
+		(pts
+			(xy 161.29 36.83) (xy 166.37 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6672bbac-11fa-44c6-a242-fd3338569671")
 	)
 	(wire
 		(pts
@@ -3087,7 +3268,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 36.83) (xy 166.37 36.83)
+			(xy 114.3 36.83) (xy 161.29 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3197,7 +3378,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 138.43) (xy 166.37 138.43)
+			(xy 24.13 138.43) (xy 161.29 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3264,6 +3445,16 @@
 			(type default)
 		)
 		(uuid "a49ba4b4-a5ce-4230-a25c-c29e5447f080")
+	)
+	(wire
+		(pts
+			(xy 161.29 82.55) (xy 166.37 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7eead2d-f07d-4689-b506-a4171b6c720d")
 	)
 	(wire
 		(pts
@@ -3454,6 +3645,16 @@
 			(type default)
 		)
 		(uuid "db9b1600-04b4-4a63-a424-4449eed5b5cf")
+	)
+	(wire
+		(pts
+			(xy 161.29 129.54) (xy 161.29 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6f5941-1f97-4899-9c13-025b0f7b1a72")
 	)
 	(wire
 		(pts
@@ -4265,6 +4466,85 @@
 			(project "AIS-Converter"
 				(path "/af2e2bda-c8b0-494b-9cbc-4303d4ae7608/129c204b-2a58-4519-abe1-43b32e5912d0"
 					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 161.29 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ab85ab4-c02a-4257-84d7-fae5a684bfcf")
+		(property "Reference" "TP22"
+			(at 161.29 25.654 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 163.83 28.4479 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 166.37 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 161.29 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "685a7f13-3959-4933-bac7-172178afda30")
+		)
+		(instances
+			(project "AIS-Converter"
+				(path "/af2e2bda-c8b0-494b-9cbc-4303d4ae7608/129c204b-2a58-4519-abe1-43b32e5912d0"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -5150,6 +5430,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 161.29 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "80da0b9f-e470-4c88-aaad-3e82bf509bea")
+		(property "Reference" "TP23"
+			(at 161.29 71.374 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 163.83 74.1679 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 166.37 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 161.29 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6f68823-3d7f-4d91-a989-8b9b0b181080")
+		)
+		(instances
+			(project "AIS-Converter"
+				(path "/af2e2bda-c8b0-494b-9cbc-4303d4ae7608/129c204b-2a58-4519-abe1-43b32e5912d0"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 251.46 114.3 0)
 		(unit 1)
@@ -5477,6 +5836,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 161.29 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9890988c-6568-4a08-92db-2b2491822639")
+		(property "Reference" "TP24"
+			(at 161.29 124.714 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 163.83 127.5079 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 166.37 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 161.29 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f27594a8-77fd-4878-9b37-d9a1115eb0cf")
+		)
+		(instances
+			(project "AIS-Converter"
+				(path "/af2e2bda-c8b0-494b-9cbc-4303d4ae7608/129c204b-2a58-4519-abe1-43b32e5912d0"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SMAJ58A")
 		(at 53.34 90.17 90)
 		(mirror x)
@@ -5793,10 +6231,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd977800-bfe6-4b3c-98e4-8b048dda48bf")
+			(uuid "fd977800-bfe6-4b3c-98e4-8b048dda48c0")
 		)
 		(pin "2"
-			(uuid "cabfbbe8-a4f7-4735-926b-f55f482d841c")
+			(uuid "cabfbbe8-a4f7-4735-926b-f55f482d841d")
 		)
 		(instances
 			(project "AIS-Converter"
@@ -6613,10 +7051,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9378563b-eff5-4635-9867-beada6ce1418")
+			(uuid "9378563b-eff5-4635-9867-beada6ce1419")
 		)
 		(pin "2"
-			(uuid "7fc2e94a-1541-45be-93a0-70f76dc9ca3c")
+			(uuid "7fc2e94a-1541-45be-93a0-70f76dc9ca3d")
 		)
 		(instances
 			(project "AIS-Converter"
